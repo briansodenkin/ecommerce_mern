@@ -1,0 +1,41 @@
+const data = {
+    products: [
+      {
+        name: 'Cuhk Anniversary Shirt',
+        slug: 'cuhk-shirt',
+        category: 'Shirts',
+        image: '/images/p1.jpg', 
+        price: 120,
+        countInStock: 10,
+        brand: 'CUHK',
+        rating: 4.5,
+        numReviews: 10,
+        description: 'Anniversary T shirt',
+      },
+      {
+        name: 'Cuhk Tie',
+        slug: 'cuhk-tie',
+        category: 'Ties',
+        image: '/images/p2.jpg',
+        price: 80,
+        countInStock: 20,
+        brand: 'CUHK',
+        rating: 4.0,
+        numReviews: 10,
+        description: 'Anniversary Ties',
+      },
+      {
+        name: 'Cuhk Hoodie',
+        slug: 'cuhk-hoodie',
+        category: 'Hoodie',
+        image: '/images/p3.jpg',
+        price: 25,
+        countInStock: 15,
+        brand: 'Nike',
+        rating: 4.5,
+        numReviews: 14,
+        description: 'Merch Hoodie',
+      },
+    ],
+  };
+  export default data;
